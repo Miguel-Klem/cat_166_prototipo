@@ -297,10 +297,23 @@ function montarAlerta() {
   }
 }
 
-// Busca os dados no dados.php e monta cada seção da página
+// Busca os dados: tenta o dados.php (funciona com servidor PHP rodando);
+// se não der certo (por exemplo, no GitHub Pages, que não roda PHP),
+// usa o dados.json como alternativa fixa, sem precisar mexer em nada.
+async function buscarDados() {
+  try {
+    const resposta = await fetch('dados.php');
+    if (!resposta.ok) throw new Error('dados.php indisponível');
+    return await resposta.json();
+  } catch (erro) {
+    const respostaEstatica = await fetch('dados.json');
+    return await respostaEstatica.json();
+  }
+}
+
+// Busca os dados no dados.php (ou dados.json) e monta cada seção da página
 async function montarPagina() {
-  const resposta = await fetch('dados.php');
-  const dados = await resposta.json();
+  const dados = await buscarDados();
 
   // Esportes
   document.getElementById('lista-esportes').innerHTML = dados.esportes.map(e => `

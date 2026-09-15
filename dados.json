@@ -1,0 +1,41 @@
+{
+  "esportes": [
+    { "titulo": "Piscina semi-olímpica", "img": "esporte-1.jpg", "texto": "Água aquecida a no mínimo 21°C, com aulas e horário livre para nadar." },
+    { "titulo": "Piscinas recreativas", "img": "esporte-2.jpg", "texto": "Espaço de lazer aquático para a família toda, com área infantil." },
+    { "titulo": "Quadras poliesportivas", "img": "esporte-3.jpg", "texto": "Futsal, vôlei, basquete e handebol na mesma quadra." },
+    { "titulo": "Academia de musculação", "img": "esporte-4.jpg", "texto": "Equipamentos completos, disponíveis nos planos Musculação e Plus." },
+    { "titulo": "Playground", "img": "esporte-5.jpg", "texto": "Área de brinquedos pensada para crianças de 4 a 12 anos." },
+    { "titulo": "Aulas e modalidades", "img": "esporte-6.jpg", "texto": "Ginástica coletiva, alongamento, hidroginástica e pilates." }
+  ],
+  "cursos": [
+    { "titulo": "Teatro", "img": "educacao-1.jpg", "texto": "Turmas abertas por ordem de matrícula, com certificado para quem cumprir 75% de frequência." },
+    { "titulo": "Dança", "img": "educacao-2.jpg", "texto": "Aulas em grupo para diferentes idades, sem necessidade de experiência prévia." },
+    { "titulo": "Música instrumental e cordas", "img": "educacao-3.jpg", "texto": "Quem já toca um instrumento pode ingressar a qualquer momento, mediante avaliação." }
+  ],
+  "depoimentos": [
+    { "nome": "Marisa Andrade", "papel": "Mãe de aluno", "foto": "depoimento-1.jpg", "texto": "Meus filhos treinam natação e fazem teatro no mesmo lugar. Eu não preciso rodar a cidade inteira." },
+    { "nome": "Rogério( Rô ) Lima", "papel": "Sócio Plano Plus", "foto": "depoimento-2.jpg", "texto": "Uso a academia de manhã e jogo vôlei à noite. O CAT virou parte da minha rotina." },
+    { "nome": "Beatriz Fonseca", "papel": "Aluna de música", "foto": "depoimento-3.jpg", "texto": "Comecei no curso de cordas sem saber nada e hoje já toco em apresentações do CAT." }
+  ],
+  "galeria": ["galeria-1.jpg", "galeria-2.jpg", "galeria-3.jpg", "galeria-4.jpg", "galeria-5.jpg", "galeria-6.jpg"],
+  "planos": [
+    {
+      "nome": "Básico", "cor": "#1E8A8A",
+      "beneficios": { "Acesso ao CAT SESI": true, "Piscina": true, "Áreas de lazer": true, "Quadras poliesportivas": true, "Academia de musculação": false, "Aulas coletivas": false },
+      "industria": { "individual": "R$ 44,00", "familiar": "R$ 83,00" },
+      "geral": { "individual": "R$ 72,00", "familiar": "R$ 126,00" }
+    },
+    {
+      "nome": "Musculação", "cor": "#9C2AA0",
+      "beneficios": { "Acesso ao CAT SESI": true, "Piscina": true, "Áreas de lazer": true, "Quadras poliesportivas": true, "Academia de musculação": true, "Aulas coletivas": true },
+      "industria": { "individual": "R$ 120,00", "familiar": null },
+      "geral": { "individual": "R$ 138,00", "familiar": null }
+    },
+    {
+      "nome": "Plus", "cor": "#D4A017",
+      "beneficios": { "Acesso ao CAT SESI": true, "Piscina": true, "Áreas de lazer": true, "Quadras poliesportivas": true, "Academia de musculação": true, "Aulas coletivas": true },
+      "industria": { "individual": null, "familiar": "R$ 256,00" },
+      "geral": { "individual": null, "familiar": "R$ 312,00" }
+    }
+  ]
+}
