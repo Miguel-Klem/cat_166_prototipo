@@ -8,7 +8,7 @@
    ========================================================= */
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header('Location: index.php');
+    header('Location: index.html');
     exit;
 }
 
@@ -31,7 +31,7 @@ if ($mensagem === '') {
 }
 
 if (!$valido) {
-    header('Location: index.php?erro=1#contato');
+    header('Location: index.html?erro=1#contato');
     exit;
 }
 
@@ -56,5 +56,5 @@ $linha = sprintf(
 file_put_contents($pastaDados . '/contatos.txt', $linha, FILE_APPEND | LOCK_EX);
 
 // Volta para a página inicial, direto na seção de contato, com aviso de sucesso
-header('Location: index.php?enviado=1#contato');
+header('Location: index.html?enviado=1#contato');
 exit;
