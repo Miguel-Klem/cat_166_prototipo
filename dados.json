@@ -13,9 +13,9 @@
     { "titulo": "Música instrumental e cordas", "img": "educacao-3.jpg", "texto": "Quem já toca um instrumento pode ingressar a qualquer momento, mediante avaliação." }
   ],
   "depoimentos": [
-    { "nome": "Marisa Andrade", "papel": "Mãe de aluno", "foto": "depoimento-1.jpg", "texto": "Meus filhos treinam natação e fazem teatro no mesmo lugar. Eu não preciso rodar a cidade inteira." },
+    { "nome": "Fabio Yonashiro", "papel": "Pai de aluno", "foto": "depoimento-1.jpg", "texto": "Meu filho treina natação e faz teatro no mesmo lugar. Eu não preciso rodar a cidade inteira." },
     { "nome": "Rogério( Rô ) Lima", "papel": "Sócio Plano Plus", "foto": "depoimento-2.jpg", "texto": "Uso a academia de manhã e jogo vôlei à noite. O CAT virou parte da minha rotina." },
-    { "nome": "Beatriz Fonseca", "papel": "Aluna de música", "foto": "depoimento-3.jpg", "texto": "Comecei no curso de cordas sem saber nada e hoje já toco em apresentações do CAT." }
+    { "nome": "André Luis Denani", "papel": "Aluno de música", "foto": "depoimento-3.jpg", "texto": "Comecei no curso de percursão sem saber nada e hoje já toco em bateria em apresentações." }
   ],
   "galeria": ["galeria-1.jpg", "galeria-2.jpg", "galeria-3.jpg", "galeria-4.jpg", "galeria-5.jpg", "galeria-6.jpg"],
   "planos": [
